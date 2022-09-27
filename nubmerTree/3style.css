@@ -1,0 +1,178 @@
+/*Глобальные параметры*/
+
+* {margin: 0; padding: 0;}
+
+body {
+    font-family: roboto, sans-serif;
+    background-color: skyblue;
+    text-align: center;
+}
+
+/* header */
+
+#header {
+    background-image: url(backgroundhead.jpg);
+    height: 120px;
+    text-align: center;
+}
+
+/* nav */
+
+#main-nav {text-align: center;}
+
+.logo-left-img {padding-bottom: 10px;}
+
+.name-logo-img {transform: rotate(3deg);}
+.name-logo-img:hover {transform: rotate(-3deg);}
+
+.logo-right-img {padding-bottom: 10px;}
+
+#main-menu {
+    background-image: url(backgroundnav.jpg);
+    height: 50px;
+    list-style: none;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-top: 9px; 
+}
+
+.menu-item a {
+    color: antiquewhite;
+    text-decoration: none;
+    background-image: url(colorWater.jpg);
+    margin: 0px 100px;
+    padding: 7px 40px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.menu-item a:hover {
+    background-image: url(color.jpg);
+    transform: scale(1.1);
+}
+
+/* ссылки */
+
+.firstnumber {
+    background-image: url(divisionfon3.png);
+    height: 1696px;
+    text-align: center;
+}
+
+.firstnumber a {
+    text-decoration: none;
+    background-image: url(colorWater.jpg);
+    margin: 10px 0px;
+    padding: 5px 5px;
+    display: inline-block;
+    color: antiquewhite;
+    border-radius: 20px;
+}
+
+.firstnumber a:hover {
+    background-image: url(color.jpg);
+    transform: scale(1.1);
+}
+
+/* div-img1 */
+
+#table {
+    border-collapse: separate;
+    border-spacing: 10px 10px;
+    border: 2px solid grey;
+    width: 600px;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+}
+
+#table th, td {
+    border: 1px solid grey;
+    padding: 10px 15px;
+}
+
+#div-img1 {
+    background-image: url(backgroundbody.jpg);
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.body-img1 {transform: rotate(-20deg);}
+
+.body-img2 {transform: scale(-1, 1);}
+
+.main-form {
+    width: 400px;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    border-radius: 100px;
+}
+
+.body-table1 {border-spacing: 200px 0px;}
+
+.body-table2 {
+    border-spacing: 300px 0px;
+    margin-bottom: 10px;
+}
+
+/* division */
+
+.divisionfon {height: 64px;}
+
+/* footer */
+
+footer {
+    background-image: url(backgroundfooter.jpg);
+    height: 150px;
+}
+
+.footer-table {width: 90%;}
+
+.logo-bottom1 {
+    padding-bottom: 10px;
+    height: 90px;
+}
+
+.name-bottom {
+    padding-top: 15px;
+    height: 100px;
+    transform: rotate(3deg);
+}
+.name-bottom:hover {transform: rotate(-3deg);}
+
+.logo-bottom2 {
+    padding-bottom: 15px;
+    height: 60px;
+}
+.footer-table td {
+    color: azure;
+    border: 0;
+    width: 33%;
+    line-height: 1.6rem;
+    vertical-align: top;
+}
+
+.bigger {
+    font-size: 120%;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+}
+
+.footer-table td a {
+    text-decoration: none;
+    color: brown
+}
+
+.footer-table td a:hover {color: aqua;}
+
+.table2 {
+    padding-top: 5px;
+    padding-left: 300px
+}
+
+.table3 {
+    padding-top: 5px;
+    padding-left: 250px
+}
