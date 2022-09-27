@@ -13,18 +13,20 @@
 @media only screen and (max-device-width: 480px) {
     .body-table1 {
         order: 1;
-        border-spacing: 80px 0px;
+        border-spacing: 230px 0px;
     }
     .body-img1 {transform: rotate(40deg);}
     .body-table2 {
         z-index: 1;
         margin-bottom: 0px;
         margin-top: 10px;
-        border-spacing: 20px 0px;
+        border-spacing: 200px 0px;
     }
-    body {
-        zoom: 51.6%;
-    }
+    #header {width: 194.1vw;}
+    #main-menu {width: 194.1vw;}
+    .firstnumber {width: 194.1vw;}
+    #div-img1 {width: 194.1vw;}
+    footer {width: 194.1vw;}
 }
 
 @media only screen and (max-device-width: 320px) {
