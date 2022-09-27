@@ -22,6 +22,9 @@
         margin-top: 10px;
         border-spacing: 20px 0px;
     }
+    body {
+        zoom: 51.6%;
+    }
 }
 
 @media only screen and (max-device-width: 320px) {
