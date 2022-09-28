@@ -13,7 +13,7 @@
 @media only screen and (max-device-width: 480px) {
     .body-table1 {
         order: 1;
-        border-spacing: 230px 0px;
+        border-spacing: 20px 0px;
         z-index: 0;
     }
     .body-img1 {transform: rotate(40deg);}
@@ -21,21 +21,15 @@
         z-index: 1;
         margin-bottom: 0px;
         margin-top: 10px;
-        border-spacing: 200px 0px;
+        border-spacing: 50px 0px;
     }
-    #header {width: 194.1vw;}
-    #main-menu {width: 194.1vw;}
-    .firstnumber {width: 194.1vw;}
-    #div-img1 {width: 194.1vw;}
-    footer {width: 194.1vw;}
-}
-
-@media only screen and (max-device-width: 320px) {
     #header {width: 130.5vw;}
     #main-menu {width: 130.5vw;}
     .firstnumber {width: 130.5vw;}
     #div-img1 {width: 130.5vw;}
     footer {width: 130.5vw;}
-    .body-table1 {border-spacing: 20px 0px;}
-    .body-table2 {border-spacing: 50px 0px;}
+}
+
+@media only screen and (max-device-width: 320px) {
+    
 }
