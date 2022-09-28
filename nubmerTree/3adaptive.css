@@ -29,6 +29,7 @@
     .firstnumber {width: 130.5vw;}
     #div-img1 {width: 130.5vw;}
     footer {width: 130.5vw;}
+    .divisionfon {height: 0px;}
 }
 
 @media only screen and (max-device-width: 320px) {
