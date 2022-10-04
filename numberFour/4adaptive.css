@@ -14,8 +14,11 @@
     .body-table1 {
         order: 1;
         border-spacing: 20px 0px;
+        z-index: 0;
     }
-    .body-img1 {transform: rotate(40deg);}
+    .body-img1 {
+        transform: rotate(40deg);
+    }
     .body-table2 {
         z-index: 1;
         margin-bottom: 0px;
@@ -26,22 +29,25 @@
     .body-img2 {margin: 0;}
     .divisionfon1 {height: 0px; width: 0px;}
     #header {width: 130.5vw;}
-    #main-menu {width: 130.5vw;}
+    #main-menu {
+        width: 130.5vw;
+        height: 220px;
+        padding-top: 10px
+    }
     .firstnumber {width: 130.5vw;}
     #div-img1 {width: 130.5vw;}
     footer {width: 130.5vw;}
     .divisionfon {height: 0px;}
     
-    #main-menu {height: 200px;}
-    
     #main-menu li {
         text-align: left;
         display: block;
-        margin: 20px;
+        margin: 10px 0;
     }
     .logo-bottom1 {height: 0px;}
     .logo-bottom2 {height: 0px;}
     footer {height: 250px;}
+    
 }
 
 @media only screen and (max-device-width: 320px) {
