@@ -1,4 +1,4 @@
-<script>
+<script type="text/jаvascript">
 function raschitat() {
 cena  = document.getElementById('cena').value;
 kolvo  = document.getElementById('kolvo').value;
