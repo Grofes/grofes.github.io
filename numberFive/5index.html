@@ -7,19 +7,19 @@
         <link rel="stylesheet" href="5style.css">
         <link rel="stylesheet" href="5adaptive.css">    
         
-        <script type="text/jаvascript">
-        function raschitat() {
-        cena  = document.getElementById('cena').value;
-        kolvo  = document.getElementById('kolvo').value;
-        if(cena == ""){
-        alert("Вы не указали ширину");
-        } else if(kolvo == ""){
-        alert("Вы не указали длину");
-        } else {
-        stoimost = parseFloat (cena)* parseFloat (kolvo);
-        document.getElementById('stoimost').innerHTML = "Стоимость равна: "+ stoimost +" р.";
-        }
-        }
+        <script>
+            function raschitat() {
+                cena  = document.getElementById('cena').value;
+                kolvo  = document.getElementById('kolvo').value;
+                if(cena == ""){
+                    alert("Вы не указали ширину");
+                } else if(kolvo == ""){
+                    alert("Вы не указали длину");
+                } else {
+                    stoimost = parseFloat (cena)* parseFloat (kolvo);
+                    document.getElementById('stoimost').innerHTML = "Стоимость равна: "+ stoimost +" р.";
+                }
+            }
         </script>
         
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
