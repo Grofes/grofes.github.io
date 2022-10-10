@@ -1,1 +1,178 @@
-
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>
+            Второе задание!
+        </title>
+        <link rel="stylesheet" href="5style.css">
+        <link rel="stylesheet" href="5adaptive.css">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="divisionfon">
+            <img src="divisionfon1.jpg" alt="картинка" class="divisionfon1">
+        </div>
+        
+        <header id="header">
+            <div class="logo-holder">
+                <img src="logo2.png" height="100" alt="логотип" class="logo-left-img">
+                <img src="logo5.png" height="120" alt="название сайта" class="name-logo-img">
+                <img src="logo3.png" height="100" alt="логотип" class="logo-right-img">
+            </div>
+        </header>
+        
+        <div class="divisionfon">
+            <img src="divisionfon2.jpg" alt="картинка" class="divisionfon1">
+        </div>
+        
+        <nav id="main-nav">
+            <ul id="main-menu">
+                <li class="menu-item"><a href="#">Главная</a></li>
+                <li class="menu-item"><a href="#">Товары</a></li>
+                <li class="menu-item"><a href="#">Контакты</a></li>
+                <li class="menu-item"><a href="#">Отзывы</a></li>
+            </ul>
+        </nav>
+        
+        <div class="divisionfon">
+            <img src="divisionfon2.jpg" alt="картинка" class="divisionfon1">
+        </div>
+        
+        <div class="firstnumber">
+            <a href="http://example.com">Ссылка 1</a><br>
+            <a id = "fragment"></a>
+            <a href="https://example.com">Ссылка 2</a><br>
+            <a href="ftp://user:123@grofes.github.io/ftp.txt">Ссылка 3</a><br>
+            <a href="ftp://:@grofes.github.io/ftp.txt">Ссылка 4</a><br>
+            <a href="https://dwweb.ru/page/css/property/005_width_css.html#paragraph_2">Ссылка 5</a><br>
+            <a href="#fragment">Ссылка 6</a><br> 
+            <a href="http://example.com?page=1&perpage=20">Ссылка 7</a><br>
+            Задание 8 Навигация<br><ul class="menu">
+                <li><a href="index.html" title="Ссылка на главную страницу!">Главная страница</a></li>
+                <li><a href="https://www.avito.ru/" title="Ссылка на авито!">Авито</a></li>
+            </ul>
+            <a>Ссылка 9: http://example.com</a><br>
+            <a href="">Ссылка 10</a><br> 
+            <a href="http://example.com" rel="nofollow">Ссылка 11</a><br> 
+            <a href="http://example.com" rel="nofollow"><!--noindex-->Ссылка 12<!--/noindex--></a>
+            <p>Текст <span><a href="http://example.com">Ссылка 13</a></span> контекст</p>
+            <p><a href="http://example.com"><img src="https://img3.goodfon.com/original/3881x2587/2/96/lemur-sidit-otdyh.jpg" height="250" alt="обучение"></a><br>Ссылка 14</p>
+            <map name="coord">
+                <area shape="circle" coords="170,215,145" href="http://example.com" alt="обучение">
+                <area shape="rect" coords="390,75,680,365" href="http://example.com" alt="обучение">
+                <area shape="poly" coords="900,75,760,360,1045,360" href="http://example.com" alt="обучение">
+            </map>
+            <p><img src="https://puzzleaday.files.wordpress.com/2019/08/round-triangle-e1566103930581.png"  usemap="#coord" alt="обучение"><br>Ссылка 15</p>
+            <a href="year.html">Ссылка 16</a><br>
+            <a href="about/next2.html">Ссылка 17</a><br>
+            <a href="about/about2/next3.html">Ссылка 18 и 19</a><br>
+            <a href="grofes.github.io">Ссылка 20</a><br>
+            <a href="year.html">Ссылка 21</a><br>
+        </div>
+        
+        <div class="divisionfon">
+            <img src="divisionfon6.jpg" alt="картинка" class="divisionfon1">
+        </div>
+        
+        <div id="div-img1">
+            <table class="body-table1">
+                <tr><th><table id="table">
+                    <tr>
+                        <th>Города</th>
+                        <th>Краснодар</th>
+                        <th>Москва</th>
+                        <th>Ставрополь</th>
+                    </tr>
+                    <tr>
+                        <th>Скидка зимой</th>
+                        <th>20%</th>
+                        <th>15%</th>
+                        <th>40%</th>
+                    </tr>
+                    <tr>
+                        <th>Скидка весной</th>
+                        <th>15%</th>
+                        <th>10%</th>
+                        <th>20%</th>
+                    </tr>
+                    <tr>
+                        <th>Скидка летом</th>
+                        <th>25%</th>
+                        <th>15%</th>
+                        <th>65%</th>
+                    </tr>
+                    <tr>
+                        <th>Скидка осенью</th>
+                        <th>10%</th>
+                        <th>5%</th>
+                        <th>20%</th>
+                    </tr>
+                    <tr>
+                        <th>Скидка в праздники</th>
+                        <th>40%</th>
+                        <th>40%</th>
+                        <th>40%</th>
+                    </tr>
+                </table></th>
+            
+                <th><img src="bodyitem1.png" alt="картинка" class="body-img1" width="600"></th></tr>
+            </table>
+            
+            <table class="body-table2">
+                <tr>
+                    <th><img src="bodyitem2.png" alt="картинка" class="body-img2" width="600"></th>
+                    <th>
+                        <form class="main-form"><br>
+                            <p><input placeholder="Имя" type="text"></p>
+                            <p><input placeholder="Mail" type="email"></p>
+                            <p><input type="date"></p>
+                            <p>Пол:
+                            <input name="sex" type="radio" value="male">М
+                            <input name="sex" type="radio" value="female">Ж</p>
+                            <p>Кол-во конечностей:
+                            <input name="num_of_limbs" type="radio" value="male">4
+                            <input name="num_of_limbs" type="radio" value="female">5</p>
+                            <p>Сверхспособность
+                            <select name="superpower">
+                                <option>бессмертие</option>
+                                <option>прохождение сквозь стены</option>
+                                <option>левитация</option>
+                            </select></p>
+                            <p>Биография<br>
+                            <textarea></textarea></p>
+                            <p>С контракто ознакомлен(а)
+                            <input type="checkbox" name="contract"></p>
+                            <input type="button" value="Отправить">
+                        </form>
+                    </th>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="divisionfon">
+            <img src="divisionfon8.jpg" alt="картинка" class="divisionfon1">
+        </div>
+        
+        <footer>
+            <table class="footer-table">
+                <tr>
+                    <td class="table1">
+                        <img src="logo7.png" alt="нижний логотип" class="logo-bottom1">
+                        <img src="logo5.png" alt="нижний логотип" class="name-bottom">
+                        <img src="logo8.png" alt="нижний логотип" class="logo-bottom2">
+                    </td>
+                    
+                    <td class="table2"><span class="bigger">Наши ссылки:</span><br><a href="#">VK</a><br><a href="#">Discord</a><br><a href="#">YouTube</a><br><a href="#">Facebook</a></td>
+                    
+                    <td class="table3"><span class="bigger">Контакты:</span><br><a href="#">Краснодар, ул.Ставропольская, д.149</a><br>Тел. <a href="#">+7-666-666-66-66</a><br>Email: <a href="mailto:minecraft@mail.ru">minecraft@mail.ru</a></td>
+                </tr>
+            </table>
+        </footer>
+        
+        <div class="divisionfon">
+            <img src="divisionfon9.jpg" alt="картинка" class="divisionfon1">
+        </div>
+    </body>
+</html>
