@@ -54,6 +54,12 @@ body {
     transform: scale(1.1);
 }
 
+/* Калькулятор */
+
+.calculate {
+    text-align: center;
+}
+
 /* ссылки */
 
 .firstnumber {
