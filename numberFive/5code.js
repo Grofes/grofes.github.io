@@ -1,4 +1,3 @@
-<script>
 function raschitat() {
 cena  = document.getElementById('cena').value;
 kolvo  = document.getElementById('kolvo').value;
@@ -11,4 +10,3 @@ stoimost = parseFloat (cena)* parseFloat (kolvo);
 document.getElementById('stoimost').innerHTML = "Стоимость равна: "+ stoimost +" р.";
 }
 }
-</script>
